@@ -1,0 +1,138 @@
+flexPst()
+  display flex
+  if (arguments[0])
+    justify-content arguments[0]
+  else
+    justify-content center
+  if (arguments[1])
+    align-items arguments[1]
+  else
+    align-items center
+.loginTop
+  width 100%
+  height 100%
+  background linear-gradient(360deg, rgba(255, 166, 76, 0) 0%, #FF6600 100%)
+.bigtitletxt
+  padding 30px 0 0 40px
+  font-size 48px
+  font-family PingFangSC-Semibold, PingFang SC
+  font-weight 600
+  color #FFFFFF
+  line-height 67px
+.titletxt
+  font-size 32px
+  font-family PingFangSC-Regular, PingFang SC
+  font-weight 400
+  color #FFFFFF
+  line-height 45px
+  padding 10px 0 0 40px
+main
+  width 690px
+  margin 60px 30px
+  border-radius 16px
+.header
+  display flex
+  justify-content space-between
+  text-align center
+.header-userregistbtn
+  width 345px
+  height 100px
+  flexPst()
+  font-size 32px
+  font-weight 400
+  line-height 45px
+  border-radius 16px 16px 0px 0px
+.header-runregistben
+  width 345px
+  height 100px
+  flexPst()
+  font-size 32px
+  font-weight 400
+  border-radius 16px 16px 0px 16px
+  line-height 45px
+.content
+  // position: relative
+  // z-index: 10
+  height 100%
+  background #ffb27b
+  margin-top -15px
+  border-radius 0 0 16px 16px
+.ext-active
+  background #fff
+  color #333333
+.ext-static
+  color #FFFFFF
+  background #FFB27B
+.header-userregistbtn.ext-static
+  border-radius 16px 16px 16px 0px
+.content-numberregist--user
+  padding 125px 0 109px 0
+.content-numberregist--run
+  padding 56px 0 55px 0
+.content-numberregist-btn
+  width 610px
+  height 100px
+  border-radius 55px
+  font-size 34px
+  font-weight 600
+  margin auto
+  flexPst()
+.content-numberregist-btn--yes
+  color #FFFFFF
+  background linear-gradient(319deg, #FFA64C 0%, #FF5703 100%)
+  box-shadow 0px 6px 12px 0px rgba(255, 102, 0, 0.24)
+.content-numberregist-btn--none
+  color #FFFFFF
+  background #DBDBDB
+.content-agreementtxt
+  font-size 26px
+  font-weight 400
+  color #999999
+  padding 0px 85px 40px 85px
+  // padding 109px 85px 40px 85px
+  i
+    color #333333
+.cnetnet-runregist
+  padding 65px 0 0px 40px
+.cnetnet-runregist-title
+  font-size 32px
+  font-weight 400
+  color #333333
+  line-height 32px
+  i
+    font-size 28px
+    font-weight 400
+    color #CCCCCC
+    line-height 40px
+    padding 0 10px
+.cnetnet-runregist-input
+  position relative
+  font-size 28px
+  margin 32px 40px 0px 0
+  border-bottom 1px solid #E5E5E5
+  img
+    position absolute
+    right 0px
+    top 0px
+    width 44px
+    height 44px
+  input
+    width 100%
+    height 100%
+    margin 0 133px 30px 0
+    text-align left
+.cnetnet-runregist-input::after
+  border-bottom 1px solid #E5E5E5
+.fill
+  background #fff
+  border-radius 0 0 16px 16px
+.fill-itme
+  flexPst()
+  background #fff
+  p
+    flex 1
+    height 14px
+.fill--user
+  border-radius 0 18px 16px 16px
+.fill--run
+  border-radius 18px 0 16px 16px
